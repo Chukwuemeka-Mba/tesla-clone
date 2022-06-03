@@ -1,0 +1,21 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+* {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  font-family: "Inter";
+}
+@font-face {
+  font-family: "Tesla";
+  src: url("~/src/assets/fonts/TESLA.ttf");
+  src: url("~/src/assets/fonts/TESLA.ttf") format("embedded-opentype"),
+    url("~/src/assets/fonts/TESLA.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Inter";
+  src: url("~/src/assets/fonts/Inter-Regular.otf");
+  src: url("~/src/assets/fonts/Inter-Regular.otf") format("embedded-opentype"),
+    url("~/src/assets/fonts/Inter-Regular.otf") format("truetype");
+}
