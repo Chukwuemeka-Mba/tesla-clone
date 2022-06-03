@@ -4,7 +4,6 @@ function Home() {
   return (
     <HomeContainer>
       <div className="home">
-        Bad Boy Thru
         <Section />
       </div>
     </HomeContainer>

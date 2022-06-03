@@ -17,16 +17,16 @@ const ReportContainer = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #000;
-    padding: 1.5rem 0;
+    background-color: #fff;
+    padding: 1rem 0;
     a {
       font-family: "Inter";
-      color: #fff;
+      color: #000;
       text-decoration: none;
-      border-bottom: 1px solid #fff;
+      border-bottom: 1px solid #000;
     }
     a:hover {
-      border-bottom: 2px solid #fff;
+      border-bottom: 1.5px solid #000;
     }
   }
 `;

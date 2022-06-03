@@ -20,7 +20,9 @@ const Container = styled.div`
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    padding: 2rem;
+    padding: 1rem 2rem;
+    width: 100%;
+    background-color: transparent;
   }
   .app-header {
     font-family: "Tesla";
