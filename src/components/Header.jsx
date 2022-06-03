@@ -34,7 +34,7 @@ const Container = styled.div`
     font-family: "Inter";
     font-size: 14px;
     font-weight: bold;
-    background-color: #ccc;
+    background-color: #e6e6e6e8;
     color: #000;
     border-radius: 12px;
     transition: all 200ms ease-in-out;
