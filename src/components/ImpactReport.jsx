@@ -20,8 +20,9 @@ const ReportContainer = styled.div`
     background-color: #fff;
     padding: 1rem 0;
     a {
-      font-family: "Inter";
+      font-family: "Gotham Book";
       color: #000;
+      font-size: 14px;
       text-decoration: none;
       border-bottom: 1px solid #000;
     }

@@ -31,7 +31,7 @@ const Container = styled.div`
   }
   .menu {
     padding: 0.5rem 1rem;
-    font-family: "Inter";
+    font-family: "Gotham Book";
     font-size: 14px;
     font-weight: bold;
     background-color: #e6e6e6e8;

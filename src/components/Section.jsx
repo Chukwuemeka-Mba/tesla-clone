@@ -43,7 +43,8 @@ const SectionWrapper = styled.div`
       text-align: center;
       margin-top: 8vh;
       h1 {
-        margin-bottom: 10px;
+        font-family: "Gotham Book";
+        margin-bottom: 0px;
         font-size: 40px;
         font-weight: 900;
       }

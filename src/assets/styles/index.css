@@ -1,11 +1,7 @@
-body {
-  margin: 0;
-  padding: 0;
-}
 * {
   box-sizing: border-box;
   scroll-behavior: smooth;
-  font-family: "Inter";
+  font-family: "Gotham Book";
   margin: 0;
   padding: 0;
 }
@@ -16,8 +12,43 @@ body {
     url("~/src/assets/fonts/TESLA.ttf") format("truetype");
 }
 @font-face {
-  font-family: "Inter";
-  src: url("~/src/assets/fonts/Inter-Regular.otf");
-  src: url("~/src/assets/fonts/Inter-Regular.otf") format("embedded-opentype"),
-    url("~/src/assets/fonts/Inter-Regular.otf") format("truetype");
+  font-family: "Gotham Black";
+  src: url("~/src/assets/fonts/Gotham-Black.otf");
+  src: url("~/src/assets/fonts/Gotham-Black.otf") format("embedded-opentype"),
+    url("~/src/assets/fonts/Gotham-Black.otf") format("truetype");
+}
+
+@font-face {
+  font-family: "Gotham Bold";
+  src: url("~/src/assets/fonts/Gotham-Bold.otf");
+  src: url("~/src/assets/fonts/Gotham-Bold.otf") format("embedded-opentype"),
+    url("~/src/assets/fonts/Gotham-Bold.otf") format("truetype");
+}
+
+@font-face {
+  font-family: "Gotham Light";
+  src: url("~/src/assets/fonts/Gotham-Light.otf");
+  src: url("~/src/assets/fonts/Gotham-Light.otf") format("embedded-opentype"),
+    url("~/src/assets/fonts/Gotham-Light.otf") format("truetype");
+}
+
+@font-face {
+  font-family: "Gotham Thin";
+  src: url("~/src/assets/fonts/Gotham-Thin.otf");
+  src: url("~/src/assets/fonts/Gotham-Thin.otf") format("embedded-opentype"),
+    url("~/src/assets/fonts/Gotham-Thin.otf") format("truetype");
+}
+
+@font-face {
+  font-family: "Gotham Medium";
+  src: url("~/src/assets/fonts/GothamMedium.ttf");
+  src: url("~/src/assets/fonts/GothamMedium.ttf") format("embedded-opentype"),
+    url("~/src/assets/fonts/GothamMedium.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Gotham Book";
+  src: url("~/src/assets/fonts/GothamBook.ttf");
+  src: url("~/src/assets/fonts/GothamBook.ttf") format("embedded-opentype"),
+    url("~/src/assets/fonts/GothamBook.ttf") format("truetype");
 }
