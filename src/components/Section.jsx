@@ -1,28 +1,36 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import styled from "styled-components";
-// import img from "../assets/images/model-3.jpg";
+import Fade from "react-reveal/Fade";
 function Section(props) {
   return (
     <SectionWrapper
       bgImage={process.env.PUBLIC_URL + "/images/" + props.backgroundImg}
     >
       <div className="body-container">
-        <div className="title-text">
-          <h1>{props.title}</h1>
-          <p>
-            {props.description} {"   "}
-            <a href={props.link}>{props.span}</a>
-          </p>
-        </div>
+        <Fade bottom>
+          <div className="title-text">
+            <h1>{props.title}</h1>
+            <p>
+              {props.description} {"   "}
+              <a href={props.link}>{props.span}</a>
+            </p>
+          </div>
+        </Fade>
 
         {props.singleBtnText ? (
           <div className="buttons">
-            <p className="single button">{props.singleBtnText}</p>
+            <Fade bottom>
+              <p className="single button">{props.singleBtnText}</p>
+            </Fade>
           </div>
         ) : (
           <div className="buttons">
-            <p className="left button">{props.leftBtnText}</p>
-            <p className="right button">{props.rightBtnText}</p>{" "}
+            <Fade left>
+              <p className="left button">{props.leftBtnText}</p>
+            </Fade>
+            <Fade right>
+              <p className="right button">{props.rightBtnText}</p>{" "}
+            </Fade>
           </div>
         )}
 
@@ -39,6 +47,7 @@ const SectionWrapper = styled.div`
   background-size: cover;
   background-position: center;
   background-image: url(${(props) => props.bgImage});
+  z-index: -1;
   .body-container {
     display: flex;
     justify-content: center;
@@ -48,6 +57,7 @@ const SectionWrapper = styled.div`
   }
   .title-text {
     margin-top: 20vh;
+    z-index: 0;
   }
   h1 {
     font-family: "Gotham Book";
@@ -62,6 +72,7 @@ const SectionWrapper = styled.div`
     align-items: center;
     margin-top: 55vh;
     gap: 10px;
+    z-index: 1;
   }
   .button {
     display: flex;

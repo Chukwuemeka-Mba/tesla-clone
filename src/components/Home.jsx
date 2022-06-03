@@ -11,6 +11,7 @@ function Home() {
       <div className="header">
         <Header />
       </div>
+
       <div className="home">
         <Section
           title="Model 3"
@@ -87,15 +88,18 @@ const HomeContainer = styled.div`
     justify-content: center;
     align-items: center;
     width: 100%;
+    z-index: 0;
   }
   .impact {
     position: fixed;
     top: 0;
     width: 100%;
+    z-index: 0;
   }
   .header {
     position: fixed;
     top: 50px;
     width: 100%;
+    z-index: 0;
   }
 `;

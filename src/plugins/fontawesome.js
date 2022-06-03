@@ -2,6 +2,10 @@
 import { library } from "@fortawesome/fontawesome-svg-core";
 
 // import your icons
-import { faAngleDown } from "@fortawesome/free-solid-svg-icons";
+import {
+  faAngleDown,
+  faAngleRight,
+  faXmark,
+} from "@fortawesome/free-solid-svg-icons";
 
-library.add(faAngleDown);
+library.add(faAngleDown, faXmark, faAngleRight);
