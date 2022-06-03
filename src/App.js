@@ -1,12 +1,14 @@
 import Home from "./components/Home";
-import ImpactReport from "./components/ImpactReport";
+import styled from "styled-components";
 function App() {
   return (
-    <div>
-      <ImpactReport />
+    <HomeContainer>
       <Home />
-    </div>
+    </HomeContainer>
   );
 }
 
 export default App;
+const HomeContainer = styled.div`
+  gap: 0px;
+`;

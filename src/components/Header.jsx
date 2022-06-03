@@ -30,12 +30,16 @@ const Container = styled.div`
     letter-spacing: 5px;
   }
   .menu {
-    padding: 0.5rem 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.3rem 1rem;
     font-family: "Gotham Book";
     font-size: 14px;
     font-weight: bold;
     background-color: #e6e6e6e8;
     color: #000;
+    padding-top: 10px;
     border-radius: 12px;
     transition: all 200ms ease-in-out;
   }
