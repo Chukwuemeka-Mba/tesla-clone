@@ -39,13 +39,9 @@ function Header() {
           <a href="https://www.tesla.com/solarpanels" className="menu">
             Account
           </a>
-          <a
-            href="https://www.tesla.com/solarpanels"
-            className="menu"
-            onClick={toggleSidebar}
-          >
+          <p className="menu" onClick={toggleSidebar}>
             Menu
-          </a>
+          </p>
         </div>
         <div className="sidebar-menu menu" onClick={toggleSidebar}>
           Menu
