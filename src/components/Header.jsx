@@ -4,7 +4,7 @@ import styled from "styled-components";
 import Sidebar from "./Sidebar";
 
 function Header() {
-  const [visible, setVisible] = useState(true);
+  const [visible, setVisible] = useState(false);
   function toggleSidebar() {
     setVisible((prevState) => !prevState);
   }
@@ -52,7 +52,7 @@ function Header() {
         </div>
       </div>
       <div className="sidebar">
-        <Sidebar toggleSidebar={toggleSidebar} />
+        <Sidebar toggleSidebar={toggleSidebar} visible={visible} />
       </div>
     </Container>
   );

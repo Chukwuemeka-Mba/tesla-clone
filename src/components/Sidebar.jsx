@@ -2,17 +2,13 @@ import { useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import styled from "styled-components";
 
-function Sidebar() {
-  const [visible, setVisible] = useState(true);
-  function toggleSidebar() {
-    setVisible((prevState) => !prevState);
-  }
+function Sidebar(props) {
   return (
     <div className="container">
-      {visible && (
+      {props.visible && (
         <SidebarContainer>
           <div className="close">
-            <FontAwesomeIcon icon={"xmark"} onClick={toggleSidebar} />
+            <FontAwesomeIcon icon={"xmark"} onClick={props.toggleSidebar} />
           </div>
           <div className="sidebar-links">
             <a href="https://www.tesla.com/models">Model S</a>
