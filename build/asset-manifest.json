@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.d0f7288a.css",
-    "main.js": "/static/js/main.22d3d253.js",
+    "main.js": "/static/js/main.7bc12547.js",
     "static/media/GothamBook.ttf": "/static/media/GothamBook.58fb9151c57e59668f17.ttf",
     "static/media/GothamMedium.ttf": "/static/media/GothamMedium.0a910c0b9d50be6aa3dc.ttf",
     "static/media/Gotham-Black.otf": "/static/media/Gotham-Black.c9e42599a779a72eaadc.otf",
@@ -11,10 +11,10 @@
     "static/media/TESLA.ttf": "/static/media/TESLA.7e1592bd859398505313.ttf",
     "index.html": "/index.html",
     "main.d0f7288a.css.map": "/static/css/main.d0f7288a.css.map",
-    "main.22d3d253.js.map": "/static/js/main.22d3d253.js.map"
+    "main.7bc12547.js.map": "/static/js/main.7bc12547.js.map"
   },
   "entrypoints": [
     "static/css/main.d0f7288a.css",
-    "static/js/main.22d3d253.js"
+    "static/js/main.7bc12547.js"
   ]
 }
