@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/tesla-clone/static/css/main.75130c1f.css",
+    "main.js": "/tesla-clone/static/js/main.b135e816.js",
+    "static/media/GothamBook.ttf": "/tesla-clone/static/media/GothamBook.58fb9151c57e59668f17.ttf",
+    "static/media/GothamMedium.ttf": "/tesla-clone/static/media/GothamMedium.0a910c0b9d50be6aa3dc.ttf",
+    "static/media/Gotham-Black.otf": "/tesla-clone/static/media/Gotham-Black.c9e42599a779a72eaadc.otf",
+    "static/media/Gotham-Thin.otf": "/tesla-clone/static/media/Gotham-Thin.6447770f7eb4c8885d73.otf",
+    "static/media/Gotham-Bold.otf": "/tesla-clone/static/media/Gotham-Bold.f9a5c9247af2c80333f4.otf",
+    "static/media/Gotham-Light.otf": "/tesla-clone/static/media/Gotham-Light.59aa40045d8df0b87a73.otf",
+    "static/media/TESLA.ttf": "/tesla-clone/static/media/TESLA.7e1592bd859398505313.ttf",
+    "index.html": "/tesla-clone/index.html",
+    "main.75130c1f.css.map": "/tesla-clone/static/css/main.75130c1f.css.map",
+    "main.b135e816.js.map": "/tesla-clone/static/js/main.b135e816.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.75130c1f.css",
+    "static/js/main.b135e816.js"
+  ]
+}
