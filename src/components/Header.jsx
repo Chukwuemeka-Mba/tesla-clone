@@ -2,41 +2,37 @@ import { useState } from "react";
 import "../assets/styles/index.css";
 import styled from "styled-components";
 import Sidebar from "./Sidebar";
+import { selectCars } from "../features/car/carSlice";
+import { useSelector } from "react-redux";
 
 function Header() {
   const [visible, setVisible] = useState(false);
+  const cars = useSelector(selectCars);
+  console.log(cars);
+
   function toggleSidebar() {
     setVisible((prevState) => !prevState);
   }
+
   return (
     <Container>
       <div className="App">
         <header className="app-header">TESLA</header>
         <div className="links">
-          <a href="https://www.tesla.com/models" className="menu">
-            Model S
-          </a>
-          <a href="https://www.tesla.com/model3" className="menu">
-            Model 3
-          </a>
-          <a href="https://www.tesla.com/modelx" className="menu">
-            Model X
-          </a>
-          <a href="https://www.tesla.com/modely" className="menu">
-            Model Y
-          </a>
-          <a href="https://www.tesla.com/solarroof" className="menu">
-            Solar Roof
-          </a>
-          <a href="https://www.tesla.com/solarpanels" className="menu">
-            Solar Panels
-          </a>
+          {cars.map((car) => (
+            <a href={car.link} className="menu">
+              {car.name}
+            </a>
+          ))}
         </div>
         <div className="links">
-          <a href="https://www.tesla.com/solarpanels" className="menu">
+          <a href="https://shop.tesla.com/" className="menu">
             Shop
           </a>
-          <a href="https://www.tesla.com/solarpanels" className="menu">
+          <a
+            href="https://auth.tesla.com/oauth2/v1/authorize?redirect_uri=https%3A%2F%2Fwww.tesla.com%2Fteslaaccount%2Fowner-xp%2Fauth%2Fcallback&response_type=code&client_id=ownership&scope=offline_access%20openid%20ou_code%20email&audience=https%3A%2F%2Fownership.tesla.com%2F&locale=en-US"
+            className="menu"
+          >
             Account
           </a>
           <p className="menu" onClick={toggleSidebar}>
